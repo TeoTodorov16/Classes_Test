@@ -5,4 +5,17 @@
 //  Created by Teo on 12.01.24.
 //
 
-import Foundation
+class Enemy {
+    var health = 10
+    var attackStength = 10
+    
+    
+    func move() {
+        print("Move forwards.")
+    }
+    
+    func attack() {
+        print("Land a hit, does \(attackStength) damage.")
+    }
+}
+
